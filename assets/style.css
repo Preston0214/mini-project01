@@ -1,0 +1,80 @@
+* {
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+margin: 10px;
+}
+
+body {
+    background-color: rgb(209, 209, 209);
+}
+
+.header {
+background-color: rgb(99, 192, 192);
+position: fixed;
+top :0;
+width: 100%;
+text-align: center;
+margin: 0px;
+margin-left: -20px;
+margin-right: -20px;
+}
+
+.header li {
+    margin-right: 30px;
+}
+
+.about-us {
+    background-color: rgb(195, 241, 241);
+    box-shadow: 4px 4px 10px black;
+    margin: 20px 100px 50px 100px;
+    text-align: center;
+}
+
+.contact-us {
+    background-color: rgb(195, 241, 241);
+    box-shadow: 4px 4px 10px black;
+    margin: 20px 100px 50px 100px;
+    text-align: center;
+}
+
+.about-you {
+    background-color: rgb(195, 241, 241);
+    box-shadow: 4px 4px 10px black;
+    margin: 20px 100px 50px 100px;
+    text-align: center;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+figure {
+    padding-top: 100px;
+
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.center-caption {
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+    
+}
+
+a:hover {
+    color: blueviolet;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+img {
+    border: rgb(195, 241, 241) 5px solid;
+    box-shadow: 4px 4px 10px black;
+}
